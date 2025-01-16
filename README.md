@@ -1,7 +1,12 @@
 ## Token Generation
 
-The purpose of this project is to generate a tokens, using the user's name, start date, end date and algorithm. 
+The purpose of this project is to generate tokens using the user's name, start date, end date, and a specified algorithm.
 
+The start date is converted to epoch time and concatenated with the user's name to generate tokens iteratively until the epoch time of the end date is reached.
+
+The algorithm can be **md5**, **sha1**, **sha256**, or **sha512**.
+
+Date Format: **DD-MM-YYYY HH:MM:SS**
 
 ## How to use
 
