@@ -67,7 +67,7 @@ def main():
     parser.add_argument("-a", "--alg", default='md5', help="Hash algorithm to use (md5, sha1, )")
     
     args = parser.parse_args()
-    gen_tokens(args.start, args.end, args.u,args.g,args.a)
+    gen_tokens(args.start, args.end, args.u,args.g,args.alg)
 
 if __name__ == '__main__':
     main()
